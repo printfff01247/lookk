@@ -6,7 +6,7 @@ int main ()
 {
 	char ch = 'a';
 	char* pc = &ch;
-	printf ("%d\n",sizeof(char*)); //计算一个内存的字节
+	printf ("%d\n",sizeof(char*)); //录脝脣茫脪禄赂枚脛脷麓忙碌脛脳脰陆脷
 	printf ("%d\n",sizeof(short*));
 	printf ("%d\n",sizeof(int*));
 	printf ("%d\n",sizeof(double*));
