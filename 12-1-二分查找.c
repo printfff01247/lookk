@@ -3,13 +3,13 @@
 #include<stdio.h>
 int main()
 {
-	//¶ş·Ö²éÕÒ
+	//äºŒåˆ†æŸ¥æ‰¾
 	int arr[] = {1,2,3,4,5,6,7,8,9,10};
 	int k = 7;
 
-	int sz = sizeof(arr)/sizeof(arr[0]);//¼ÆËãÔªËØ¸öÊı
-	int left = 0;//×óÏÂ±ê
-	int right = sz -1;//ÓÒÏÂ±ê
+	int sz = sizeof(arr)/sizeof(arr[0]);//è®¡ç®—å…ƒç´ ä¸ªæ•°
+	int left = 0;//å·¦ä¸‹æ ‡
+	int right = sz -1;//å³ä¸‹æ ‡
 
 	while(left <= right)
 	{
@@ -26,12 +26,12 @@ int main()
 		}
 		else
 		{
-			printf("ÕÒµ½ÏÂ±ê£º%d\n", mid);
+			printf("æ‰¾åˆ°ä¸‹æ ‡ï¼š%d\n", mid);
 			break;
 		}
 		if(left > right)
 		{
-			printf("ÕÒ²»µ½ÏÂ±ê\n");
+			printf("æ‰¾ä¸åˆ°ä¸‹æ ‡\n");
 		}
 	
 	
@@ -40,20 +40,20 @@ int main()
 
 	//int arr[] = {1,2,3,4,5,6,7,8,9,10};
 	//int k = 7;
-	////Ğ´Ò»¸ö´úÂë£¬ÔÚarrÊı×éÖĞ£¨ÓĞĞòµÄ£©ÕÒµ½7£»
+	////å†™ä¸€ä¸ªä»£ç ï¼Œåœ¨arræ•°ç»„ä¸­ï¼ˆæœ‰åºçš„ï¼‰æ‰¾åˆ°7ï¼›
 	//int i = 0;
 	//int sz = sizeof(arr)/sizeof(arr[0]);
 	//for(i = 0;i<sz;i++)
 	//{
 	//	if(k == arr[i])
 	//	{
-	//		printf("ÕÒµ½ÏÂ±ê£º%d\n",i);
+	//		printf("æ‰¾åˆ°ä¸‹æ ‡ï¼š%d\n",i);
 	//		break;
 	//	}
 	//	
 	//}
 	//if(i == sz)
-	//	printf("Î´ÕÒµ½\n");
+	//	printf("æœªæ‰¾åˆ°\n");
 
 	//		return 0;
 }
