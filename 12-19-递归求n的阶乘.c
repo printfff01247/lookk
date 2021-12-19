@@ -1,7 +1,7 @@
 #define _CRT_SECURE_NO_WARNINGS 1
 
 #include<stdio.h>
-//Ñ­»·µÄ·½Ê½
+//å¾ªç¯çš„æ–¹å¼
 //int Fac1(int n)
 //{
 //	int i = 0;
@@ -12,7 +12,7 @@
 //	}
 //	return ret;
 //}
-//µİ¹éµÄ·½Ê½
+//é€’å½’çš„æ–¹å¼
 int Fac2(int n)
 {
 	if(n<=1)
@@ -25,8 +25,8 @@ int main()
 	int n = 0;
 	int ret = 0;
 	scanf("%d", &n);
-	//ret = Fac1(n);//Ñ­»·µÄ·½Ê½Çó
-	ret = Fac2(n);//µİ¹éµÄ·½Ê½Çó
+	//ret = Fac1(n);//å¾ªç¯çš„æ–¹å¼æ±‚
+	ret = Fac2(n);//é€’å½’çš„æ–¹å¼æ±‚
 	printf("%d\n",ret);
 
 	return 0;
